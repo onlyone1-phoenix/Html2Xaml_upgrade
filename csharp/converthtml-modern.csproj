@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>XAMLConverter</AssemblyName>
+    <RootNamespace>HTMLConverter</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ApplicationDefinition Remove="App.xaml" />
+    <Page Remove="Window1.xaml" />
+    <Compile Remove="Window1.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.61" />
+    <PackageReference Include="AngleSharp" Version="0.17.1" />
+    <PackageReference Include="ExCSS" Version="4.2.3" />
+  </ItemGroup>
+
+</Project>

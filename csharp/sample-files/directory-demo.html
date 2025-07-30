@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern HTML5 Example</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .subtitle {
+            color: #666;
+            font-style: italic;
+            font-size: 1.2em;
+        }
+        
+        main {
+            display: grid;
+            gap: 20px;
+        }
+        
+        section {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        
+        h2 {
+            color: #764ba2;
+            margin-top: 0;
+        }
+        
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .feature-list li {
+            background: white;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: relative;
+            padding-left: 50px;
+        }
+        
+        .feature-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 15px;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        .highlight {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin: 10px;
+            transition: transform 0.3s ease;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Modern HTML to XAML Converter</h1>
+            <p class="subtitle">Advanced conversion with full CSS support</p>
+        </header>
+        
+        <main>
+            <section>
+                <h2>🚀 Key Features</h2>
+                <ul class="feature-list">
+                    <li><span class="highlight">HTML5</span> semantic elements support</li>
+                    <li><span class="highlight">CSS3</span> styling conversion</li>
+                    <li><span class="highlight">Tailwind CSS</span> utility classes</li>
+                    <li><span class="highlight">Modern layouts</span> with Grid and Flexbox</li>
+                    <li><span class="highlight">Responsive design</span> elements</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>📁 Directory Structure</h2>
+                <p>This converter now includes intelligent <strong>directory management</strong>:</p>
+                <ul>
+                    <li><strong>html-files/</strong> - Store your input HTML files here</li>
+                    <li><strong>converted-files/</strong> - Generated XAML files are saved here</li>
+                    <li><strong>sample-files/</strong> - Pre-made examples for testing</li>
+                </ul>
+                <p>File dialogs automatically open in the appropriate directories for seamless workflow!</p>
+            </section>
+            
+            <section>
+                <h2>⚡ Quick Start</h2>
+                <p>Follow these simple steps:</p>
+                <ol>
+                    <li>Click <strong>"📁 Load HTML File"</strong> to browse HTML files</li>
+                    <li>Select your preferred converter engine</li>
+                    <li>Click <strong>"🔄 Convert to XAML"</strong></li>
+                    <li>Use export buttons to save results</li>
+                    <li>Access folders quickly with directory buttons</li>
+                </ol>
+            </section>
+        </main>
+        
+        <footer>
+            <a href="#" class="btn">Load in Converter</a>
+            <a href="#" class="btn">View Documentation</a>
+            <p><em>Ready for professional XAML conversion workflows</em></p>
+        </footer>
+    </div>
+</body>
+</html>
