@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <PackageId>Html2XamlConverter.Enhanced</PackageId>
+    <Version>2.0.0</Version>
+    <Authors>onlyone1-phoenix</Authors>
+    <Description>Enhanced HTML to XAML converter with modern .NET 8 support, HTML5 semantic elements, CSS parsing, and intelligent directory management. Original improved by use of Microsoft GitHub Copilot™. Test code provided by uxpilot.ai.</Description>
+    <PackageTags>HTML;XAML;Converter;WPF;HTML5;CSS;Parser</PackageTags>
+    <RepositoryUrl>https://github.com/onlyone1-phoenix/Html2Xaml_upgrade</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.61" />
+    <PackageReference Include="AngleSharp" Version="0.17.1" />
+    <PackageReference Include="ExCSS" Version="4.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.WindowsDesktop.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
